@@ -1,4 +1,4 @@
-# Maintainer: Your Name <you@example.com>
+# Maintainer: Benjamin White <benwhite1987@gmail.com>
 pkgname=steam-multiuser
 pkgver=1.0.0
 pkgrel=1
