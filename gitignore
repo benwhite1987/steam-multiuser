@@ -1,0 +1,15 @@
+# Local configuration — never commit a real config
+/etc/steam-multiuser.conf
+steam-multiuser.conf
+
+# Editor and OS cruft
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build artifacts from makepkg
+*.pkg.tar.*
+*.tar.gz
+pkg/
+src/

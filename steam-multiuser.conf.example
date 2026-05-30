@@ -1,0 +1,17 @@
+# steam-multiuser configuration
+#
+# Copy this file to /etc/steam-multiuser.conf and edit as needed.
+# Any value set here overrides the corresponding default in steam-multiuser.sh.
+# All derived paths and diagnostic messages adapt automatically.
+#
+#   sudo cp /etc/steam-multiuser.conf.example /etc/steam-multiuser.conf
+
+# Path to the shared Steam library.
+# This directory holds the shared game files and the per-user bind-mount target.
+# Default: /steam-library
+#LIBRARY=/steam-library
+
+# Name of the Unix group whose members share the library.
+# Users are added to this group by `steam-multiuser.sh --add`.
+# Default: gamers
+#GAMERS_GROUP=gamers

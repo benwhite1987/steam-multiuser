@@ -1,0 +1,35 @@
+steam-multiuser — Shared Steam library manager for multi-user Linux systems
+Copyright (C) 2026  Benjamin White
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along
+with this program; if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+================================================================================
+
+NOTE FOR PACKAGING / RELEASE:
+
+Replace everything below this line with the full, verbatim text of the GNU
+General Public License version 2, obtained from the canonical source:
+
+    https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
+
+The block above is the standard copyright-and-permission notice that belongs at
+the top of the LICENSE file; the full license text must follow it for the
+LICENSE to be complete and valid. Do not hand-transcribe the license text —
+download it from gnu.org to guarantee it is byte-for-byte correct.
+
+    curl -o LICENSE.body https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
+    cat LICENSE.body >> LICENSE   # after replacing this note
+
+================================================================================
