@@ -36,6 +36,8 @@ It is built and tested for **CachyOS** and other Arch-based distributions runnin
 
 ## Why this exists
 
+I'm a father with more gamers in the family than computers.  My wife and kids each have their own Steam user accounts, but I didn't want my kids on mine or my wife's privileged user accounts for each of my Linux systems.  They're receiving notifications for emails, messages, and everything else that goes with access to work and personal accounts while playing their games.  Turns out Steam won't share a library cleanly across userspace and this is a gnarly problem to solve.  After much trial and error, I managed to solve it.  Now my kids have their own accounts on the computer and their own Steam accounts when they login without a bunch of wasted disk space.
+
 Steam stores each user's games under `~/.local/share/Steam/steamapps`. On a
 shared computer — a family PC, a couch-gaming machine with several profiles, a
 lab workstation — that means every account downloads and stores its own copy of
